@@ -1,0 +1,2 @@
+This is an Reverse Polish Notation calculator I wrote in C with a stack structure using a linked list implementation. I also wrote the Makefile.
+This works similar to the UNIX command 'dc' except is only takes in integers and cannot do floats.

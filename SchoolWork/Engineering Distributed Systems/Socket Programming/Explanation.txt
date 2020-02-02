@@ -1,0 +1,31 @@
+#
+#   Created by: Markus T Peterson
+#   Date: 1/27/2020
+#   Assignment 0
+#   E510 - ENGINEERING DISTRIBUTED SYSTMS
+#
+
+For the server.py file there is no specific arguments that change the running of the program.
+
+For the alice.py program, the input arguments are the same as indicated in the instructions.
+Example alice.py commands:
+    python alice.py --key=username --value=foo
+    python alice.py --key=username --value=foo --key=other --value=name
+
+
+For multiple inputs to alice.py program the order of input does matter. This means for multiple inputs
+    the command must have the pattern of --key=... --value=... --key=... --value=... etc.
+
+For the bob.py program no such restrictions exist, but each key must be added with another --key=
+Example bob.py commands:
+    pyhton bob.py --key=username
+    python bob.py --key=username --key=other
+
+If bob.py tries to get the value for a key that does not exist, the server will return 'ERROR' as a string.
+
+The driver.py can be run without arguments, but not much will happen as not data is being sent or is
+    requested from the server.
+
+Example driver.py commands:
+    python driver.py SAVE=hello:bye,some:thing RETV=hello,some
+    python driver.py SAVE=hello:bye,some:thing,username:other RETV=hello,some,other

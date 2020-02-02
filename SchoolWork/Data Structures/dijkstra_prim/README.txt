@@ -1,0 +1,1 @@
+For the dijkstra and prim files, most of the Graph classes were provided. I wrote the dijkstra and prim algorithms as well as main functions.
