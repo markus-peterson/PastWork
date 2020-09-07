@@ -1,0 +1,380 @@
+/Users/jeffrey/Desktop/DS_Project/venv/bin/python /Users/jeffrey/Desktop/DS_Project/Causal/DriverCausal.py
+Name server pid = 3529
+Not starting broadcast server for localhost.
+NS running on localhost:2232 (127.0.0.1)
+Warning: HMAC key not set. Anyone can connect to this server!
+URI = PYRO:Pyro.NameServer@localhost:2232
+Spawning primary...
+Spawning node1
+Spawning node2
+Spawning client0
+Spawning client1
+Attempt: 1
+Primary has sent back timestamp of 2.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+whosat--
+Primary has sent back timestamp of 3.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+whosat--
+Hitting replica node2 for key test...
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+whosat--
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+
+Attempt: 2
+Primary has sent back timestamp of 6.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+hello world!
+Primary has sent back timestamp of 7.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+whosat--
+Hitting replica node1 for key test...
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+hello world!
+
+Attempt: 3
+Primary has sent back timestamp of 10.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+whosat--
+Primary has sent back timestamp of 11.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+whosat--
+Hitting replica node1 for key test...
+hello world!
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+
+Attempt: 4
+Primary has sent back timestamp of 14.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+hello world!
+Primary has sent back timestamp of 15.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+hello world!
+Hitting replica node1 for key test...
+hello world!
+
+Attempt: 5
+Primary has sent back timestamp of 18.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+whosat--
+Primary has sent back timestamp of 19.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+hello world!
+Hitting replica node1 for key test...
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+hello world!
+
+Attempt: 6
+Primary has sent back timestamp of 22.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+whosat--
+Primary has sent back timestamp of 23.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+hello world!
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+Hitting replica node2 for key test...
+hello world!
+
+Attempt: 7
+Primary has sent back timestamp of 26.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+hello world!
+Primary has sent back timestamp of 27.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+whosat--
+Hitting replica node1 for key test...
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+hello world!
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+
+Attempt: 8
+Primary has sent back timestamp of 30.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+hello world!
+Primary has sent back timestamp of 31.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+hello world!
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+hello world!
+
+Attempt: 9
+Primary has sent back timestamp of 34.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+hello world!
+Primary has sent back timestamp of 35.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+hello world!
+Hitting replica node2 for key test...
+hello world!
+
+Attempt: 10
+Primary has sent back timestamp of 38.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+hello world!
+Primary has sent back timestamp of 39.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+hello world!
+Hitting replica node2 for key test...
+hello world!
+
+Attempt: 11
+Primary has sent back timestamp of 42.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+whosat--
+Primary has sent back timestamp of 43.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+hello world!
+Hitting replica node2 for key test...
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+hello world!
+
+Attempt: 12
+Primary has sent back timestamp of 46.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+hello world!
+Primary has sent back timestamp of 47.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+hello world!
+Hitting replica node2 for key test...
+hello world!
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+
+Attempt: 13
+Primary has sent back timestamp of 50.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+hello world!
+Primary has sent back timestamp of 51.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+whosat--
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Hitting replica node1 for key test...
+hello world!
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+
+Attempt: 14
+Primary has sent back timestamp of 54.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+hello world!
+Primary has sent back timestamp of 55.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+whosat--
+Hitting replica node1 for key test...
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+hello world!
+
+Attempt: 15
+Primary has sent back timestamp of 58.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+hello world!
+Primary has sent back timestamp of 59.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+hello world!
+Hitting replica node2 for key test...
+hello world!
+
+Attempt: 16
+Primary has sent back timestamp of 62.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+hello world!
+Primary has sent back timestamp of 63.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+whosat--
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Hitting replica node1 for key test...
+hello world!
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+
+Attempt: 17
+Primary has sent back timestamp of 66.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+hello world!
+Primary has sent back timestamp of 67.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Node at pid:3535 has not received the update yet.
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+whosat--
+Hitting replica node2 for key test...
+whosat--
+
+Attempt: 18
+Primary has sent back timestamp of 70.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+whosat--
+Primary has sent back timestamp of 71.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+whosat--
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Hitting replica node1 for key test...
+hello world!
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+
+Attempt: 19
+Primary has sent back timestamp of 74.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+hello world!
+Primary has sent back timestamp of 75.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+Node at pid:3535 has not received the update yet.
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+Node at pid:3535 has not received the update yet.
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+whosat--
+Hitting replica node2 for key test...
+whosat--
+
+Attempt: 20
+Primary has sent back timestamp of 78.
+Ok, key: test and value: whosat-- have been set on the primary with pid:3531.
+Hitting replica node2 for key test...
+whosat--
+Primary has sent back timestamp of 79.
+Ok, key: test and value: hello world! have been set on the primary with pid:3531.
+Hitting replica node1 for key test...
+Node at pid:3533 has not received the update yet.
+Replica at pid: 3533 has set key:"test" and value:"whosat--"
+whosat--
+Replica at pid: 3533 has set key:"test" and value:"hello world!"
+Hitting replica node1 for key test...
+hello world!
+Replica at pid: 3535 has set key:"test" and value:"whosat--"
+Replica at pid: 3535 has set key:"test" and value:"hello world!"
+
+
+The average time for a get request to return is 0.741035795211792
+The average time for a set request to return is 0.004025357961654663
+
+Process finished with exit code 0

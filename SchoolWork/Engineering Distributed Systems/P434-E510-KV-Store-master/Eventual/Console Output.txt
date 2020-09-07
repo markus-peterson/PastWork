@@ -1,0 +1,129 @@
+/Users/jeffrey/Desktop/DS_Project/venv/bin/python /Users/jeffrey/Desktop/DS_Project/Eventual/DriverEventual.py
+Name server pid = 2902
+Not starting broadcast server for localhost.
+NS running on localhost:2232 (127.0.0.1)
+Warning: HMAC key not set. Anyone can connect to this server!
+URI = PYRO:Pyro.NameServer@localhost:2232
+Spawning node0
+Spawning node1
+Spawning node2
+Ok, key: test and value: hello hello-- have been set on the primary with pid:2904.
+hello hello--
+3
+3
+hello hello--
+Node at pid: 2906 has set key:"test" and value:"hello hello--"
+hello hello--
+3
+hello hello--
+hello hello--
+Node at pid: 2908 has set key:"test" and value:"hello hello--"
+hello hello--
+Entering testing..........
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello
+hello world
+Node at pid: 2906 has set key:"test2" and value:"hello"
+hello world
+hello
+hello
+hello world
+Node at pid: 2908 has set key:"test2" and value:"hello"
+hello world
+hello
+Node at pid: 2906 has set key:"test2" and value:"hello world"
+hello
+Node at pid: 2908 has set key:"test2" and value:"hello world"
+Expects "hello world", got hello world
+Expects "hello world", got hello world
+Expects "hello world", got hello world
+Entering performance eval.....
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+hello hello--
+Ok, key: test and value: 0 have been set on the primary with pid:2904.
+Ok, key: test and value: 1 have been set on the primary with pid:2904.
+Ok, key: test and value: 0 have been set on the primary with pid:2904.
+Ok, key: test and value: 2 have been set on the primary with pid:2904.
+Ok, key: test and value: 3 have been set on the primary with pid:2904.
+Ok, key: test and value: 1 have been set on the primary with pid:2904.
+Ok, key: test and value: 3 have been set on the primary with pid:2904.
+Ok, key: test and value: 4 have been set on the primary with pid:2904.
+Ok, key: test and value: 2 have been set on the primary with pid:2904.
+Ok, key: test and value: 0 have been set on the primary with pid:2904.
+Ok, key: test and value: 1 have been set on the primary with pid:2904.
+Ok, key: test and value: 5 have been set on the primary with pid:2904.
+Ok, key: test and value: 2 have been set on the primary with pid:2904.
+Ok, key: test and value: 7 have been set on the primary with pid:2904.
+Ok, key: test and value: 11 have been set on the primary with pid:2904.
+Ok, key: test and value: 14 have been set on the primary with pid:2904.
+Ok, key: test and value: 0 have been set on the primary with pid:2904.
+Ok, key: test and value: 15 have been set on the primary with pid:2904.
+Ok, key: test and value: 7 have been set on the primary with pid:2904.
+Ok, key: test and value: 10 have been set on the primary with pid:2904.
+Node at pid: 2906 has set key:"test" and value:"0"
+Node at pid: 2906 has set key:"test" and value:"1"
+Node at pid: 2906 has set key:"test" and value:"0"
+Node at pid: 2906 has set key:"test" and value:"2"
+Node at pid: 2906 has set key:"test" and value:"3"
+Node at pid: 2906 has set key:"test" and value:"1"
+Node at pid: 2906 has set key:"test" and value:"4"
+Node at pid: 2906 has set key:"test" and value:"3"
+Node at pid: 2906 has set key:"test" and value:"2"
+Node at pid: 2906 has set key:"test" and value:"0"
+Node at pid: 2906 has set key:"test" and value:"1"
+Node at pid: 2906 has set key:"test" and value:"5"
+Node at pid: 2906 has set key:"test" and value:"2"
+Node at pid: 2906 has set key:"test" and value:"7"
+Node at pid: 2906 has set key:"test" and value:"11"
+Node at pid: 2906 has set key:"test" and value:"0"
+Node at pid: 2906 has set key:"test" and value:"14"
+Node at pid: 2906 has set key:"test" and value:"15"
+Node at pid: 2906 has set key:"test" and value:"7"
+Node at pid: 2906 has set key:"test" and value:"10"
+Node at pid: 2908 has set key:"test" and value:"0"
+Node at pid: 2908 has set key:"test" and value:"1"
+Node at pid: 2908 has set key:"test" and value:"0"
+Node at pid: 2908 has set key:"test" and value:"2"
+Node at pid: 2908 has set key:"test" and value:"3"
+Node at pid: 2908 has set key:"test" and value:"1"
+Node at pid: 2908 has set key:"test" and value:"4"
+Node at pid: 2908 has set key:"test" and value:"3"
+Node at pid: 2908 has set key:"test" and value:"2"
+Node at pid: 2908 has set key:"test" and value:"1"
+Node at pid: 2908 has set key:"test" and value:"0"
+Node at pid: 2908 has set key:"test" and value:"5"
+Node at pid: 2908 has set key:"test" and value:"7"
+Node at pid: 2908 has set key:"test" and value:"2"
+Node at pid: 2908 has set key:"test" and value:"11"
+Node at pid: 2908 has set key:"test" and value:"14"
+Node at pid: 2908 has set key:"test" and value:"7"
+Node at pid: 2908 has set key:"test" and value:"0"
+Node at pid: 2908 has set key:"test" and value:"15"
+Node at pid: 2908 has set key:"test" and value:"10"
+The average time for a get request to return is 0.0030490756034851074
+The average time for a set request to return is 0.0035626769065856935
+
+Process finished with exit code 0

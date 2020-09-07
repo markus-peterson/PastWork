@@ -1,0 +1,349 @@
+/Users/jeffrey/Desktop/DS_Project/venv/bin/python /Users/jeffrey/Desktop/DS_Project/Sequential/DriverSequential.py
+Name server pid = 4486
+Not starting broadcast server for localhost.
+NS running on localhost:2232 (127.0.0.1)
+Warning: HMAC key not set. Anyone can connect to this server!
+URI = PYRO:Pyro.NameServer@localhost:2232
+Spawning sequencer...
+Spawning node1
+Spawning node2
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '0'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (1, (4492, 'test', '0')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (1, (4492, 'test', '0')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (1, (4492, 'test', '0')).
+Sequencer broadcaster to self
+Ok, key: test and value: 0 have been set.
+0
+0
+0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '1'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (2, (4492, 'test', '1')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (2, (4492, 'test', '1')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (2, (4492, 'test', '1')).
+Sequencer broadcaster to self
+Ok, key: test and value: 1 have been set.
+1
+1
+1
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '0'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (3, (4492, 'test', '0')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (3, (4492, 'test', '0')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (3, (4492, 'test', '0')).
+Sequencer broadcaster to self
+Ok, key: test and value: 0 have been set.
+0
+0
+0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '0'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (4, (4492, 'test', '0')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (4, (4492, 'test', '0')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (4, (4492, 'test', '0')).
+Sequencer broadcaster to self
+Ok, key: test and value: 0 have been set.
+0
+0
+0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '3'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (5, (4492, 'test', '3')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (5, (4492, 'test', '3')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (5, (4492, 'test', '3')).
+Sequencer broadcaster to self
+Ok, key: test and value: 3 have been set.
+3
+3
+3
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '2'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (6, (4492, 'test', '2')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (6, (4492, 'test', '2')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (6, (4492, 'test', '2')).
+Sequencer broadcaster to self
+Ok, key: test and value: 2 have been set.
+2
+2
+2
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '0'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (7, (4492, 'test', '0')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (7, (4492, 'test', '0')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (7, (4492, 'test', '0')).
+Sequencer broadcaster to self
+Ok, key: test and value: 0 have been set.
+0
+0
+0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '7'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (8, (4492, 'test', '7')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (8, (4492, 'test', '7')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (8, (4492, 'test', '7')).
+Sequencer broadcaster to self
+Ok, key: test and value: 7 have been set.
+7
+7
+7
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '7'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (9, (4492, 'test', '7')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (9, (4492, 'test', '7')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (9, (4492, 'test', '7')).
+Sequencer broadcaster to self
+Ok, key: test and value: 7 have been set.
+7
+7
+7
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '3'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (10, (4492, 'test', '3')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (10, (4492, 'test', '3')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (10, (4492, 'test', '3')).
+Sequencer broadcaster to self
+Ok, key: test and value: 3 have been set.
+3
+3
+3
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '10'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (11, (4492, 'test', '10')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (11, (4492, 'test', '10')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (11, (4492, 'test', '10')).
+Sequencer broadcaster to self
+Ok, key: test and value: 10 have been set.
+10
+10
+10
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '8'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (12, (4492, 'test', '8')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (12, (4492, 'test', '8')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (12, (4492, 'test', '8')).
+Sequencer broadcaster to self
+Ok, key: test and value: 8 have been set.
+8
+8
+8
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '5'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (13, (4492, 'test', '5')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (13, (4492, 'test', '5')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (13, (4492, 'test', '5')).
+Sequencer broadcaster to self
+Ok, key: test and value: 5 have been set.
+5
+5
+5
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '7'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (14, (4492, 'test', '7')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (14, (4492, 'test', '7')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (14, (4492, 'test', '7')).
+Sequencer broadcaster to self
+Ok, key: test and value: 7 have been set.
+7
+7
+7
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '14'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (15, (4492, 'test', '14')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (15, (4492, 'test', '14')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (15, (4492, 'test', '14')).
+Sequencer broadcaster to self
+Ok, key: test and value: 14 have been set.
+14
+14
+14
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '6'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (16, (4492, 'test', '6')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (16, (4492, 'test', '6')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (16, (4492, 'test', '6')).
+Sequencer broadcaster to self
+Ok, key: test and value: 6 have been set.
+6
+6
+6
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '12'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (17, (4492, 'test', '12')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (17, (4492, 'test', '12')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (17, (4492, 'test', '12')).
+Sequencer broadcaster to self
+Ok, key: test and value: 12 have been set.
+12
+12
+12
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '15'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (18, (4492, 'test', '15')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (18, (4492, 'test', '15')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (18, (4492, 'test', '15')).
+Sequencer broadcaster to self
+Ok, key: test and value: 15 have been set.
+15
+15
+15
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '1'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (19, (4492, 'test', '1')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (19, (4492, 'test', '1')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (19, (4492, 'test', '1')).
+Sequencer broadcaster to self
+Ok, key: test and value: 1 have been set.
+1
+1
+1
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value,
+as the set should be blocking.
+--------------------------------------------------------------------
+Sequencer receives: (4492, 'test', '17'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (20, (4492, 'test', '17')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (20, (4492, 'test', '17')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (20, (4492, 'test', '17')).
+Sequencer broadcaster to self
+Ok, key: test and value: 17 have been set.
+17
+17
+17
+--------------------------------------------------------------------
+The average time for a get request to return is 0.0012846986452738445
+The average time for a set request to return is 4.036282932758331
+---Multiple sets---
+
+Sequencer receives: (4490, 'test2', 'hello'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (21, (4490, 'test2', 'hello')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (21, (4490, 'test2', 'hello')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (21, (4490, 'test2', 'hello')).
+Sequencer broadcaster to self
+Sequencer receives: (4492, 'test2', 'hello world'). Broadcasting to all nodes.
+Node with pid: 4490 is processing message: (22, (4492, 'test2', 'hello world')).
+Sequencer broadcaster to PYRO:obj_9ef66b09ac344cb589a67f3024b80135@localhost:57594
+Node with pid: 4492 is processing message: (22, (4492, 'test2', 'hello world')).
+Sequencer broadcaster to PYRO:obj_ce50f6918d0b485c94e55b3cfe9c1767@localhost:57596
+Node with pid: 4488 is processing message: (22, (4492, 'test2', 'hello world')).
+Sequencer broadcaster to self
+
+Process finished with exit code 0

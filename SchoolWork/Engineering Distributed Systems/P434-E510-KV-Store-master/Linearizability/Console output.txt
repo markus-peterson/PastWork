@@ -1,0 +1,406 @@
+/Users/jeffrey/Desktop/DS_Project/venv/bin/python /Users/jeffrey/Desktop/DS_Project/Linearizability/DriverLinear.py
+Name server pid = 4674
+Not starting broadcast server for localhost.
+NS running on localhost:2232 (127.0.0.1)
+Warning: HMAC key not set. Anyone can connect to this server!
+URI = PYRO:Pyro.NameServer@localhost:2232
+Spawning sequencer...
+Spawning node1
+Spawning node2
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '0'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (1, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (1, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (1, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to self
+Ok, key: test and value: 0 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (2, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (2, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (2, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (3, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (3, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (3, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (4, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (4, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (4, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '0'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (5, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (5, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (5, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to self
+Ok, key: test and value: 0 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (6, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (6, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (6, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (7, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (7, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (7, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (8, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (8, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (8, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '0'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (9, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (9, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (9, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to self
+Ok, key: test and value: 0 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (10, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (10, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (10, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (11, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (11, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (11, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (12, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (12, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (12, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '1'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (13, (4683, 'set', 'test', '1')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (13, (4683, 'set', 'test', '1')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (13, (4683, 'set', 'test', '1')).
+Sequencer broadcaster to self
+Ok, key: test and value: 1 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (14, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (14, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (14, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 1 got 1
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (15, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (15, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (15, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 1 got 1
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (16, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (16, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (16, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 1 got 1
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '2'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (17, (4683, 'set', 'test', '2')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (17, (4683, 'set', 'test', '2')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (17, (4683, 'set', 'test', '2')).
+Sequencer broadcaster to self
+Ok, key: test and value: 2 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (18, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (18, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (18, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 2 got 2
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (19, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (19, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (19, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 2 got 2
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (20, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (20, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (20, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 2 got 2
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '4'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (21, (4683, 'set', 'test', '4')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (21, (4683, 'set', 'test', '4')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (21, (4683, 'set', 'test', '4')).
+Sequencer broadcaster to self
+Ok, key: test and value: 4 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (22, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (22, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (22, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 4 got 4
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (23, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (23, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (23, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 4 got 4
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (24, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (24, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (24, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 4 got 4
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '3'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (25, (4683, 'set', 'test', '3')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (25, (4683, 'set', 'test', '3')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (25, (4683, 'set', 'test', '3')).
+Sequencer broadcaster to self
+Ok, key: test and value: 3 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (26, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (26, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (26, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 3 got 3
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (27, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (27, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (27, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 3 got 3
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (28, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (28, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (28, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 3 got 3
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '0'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (29, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (29, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (29, (4683, 'set', 'test', '0')).
+Sequencer broadcaster to self
+Ok, key: test and value: 0 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (30, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (30, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (30, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (31, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (31, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (31, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (32, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (32, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (32, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 0 got 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '1'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (33, (4683, 'set', 'test', '1')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (33, (4683, 'set', 'test', '1')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (33, (4683, 'set', 'test', '1')).
+Sequencer broadcaster to self
+Ok, key: test and value: 1 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (34, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (34, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (34, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 1 got 1
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (35, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (35, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (35, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 1 got 1
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (36, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (36, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (36, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 1 got 1
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+The next 3 get requests after the set should return the same value, 
+as the set should be blocking. The gets also cause a multicast.
+--------------------------------------------------------------------
+Sequencer receives: (4683, 'set', 'test', '6'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (37, (4683, 'set', 'test', '6')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (37, (4683, 'set', 'test', '6')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (37, (4683, 'set', 'test', '6')).
+Sequencer broadcaster to self
+Ok, key: test and value: 6 have been set.
+Sequencer receives: (4680, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (38, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (38, (4680, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (38, (4680, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 6 got 6
+Sequencer receives: (4683, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (39, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (39, (4683, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (39, (4683, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 6 got 6
+Sequencer receives: (4676, 'get', 'test', None). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (40, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (40, (4676, 'get', 'test', None)).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (40, (4676, 'get', 'test', None)).
+Sequencer broadcaster to self
+Expects 6 got 6
+--------------------------------------------------------------------
+The average time for a get request to return is 4.038906788825988
+The average time for a set request to return is 4.039895558357239
+--------------------------------------------------------------------
+---Multiple sets---
+
+Sequencer receives: (4683, 'set', 'test2', 'hello world'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (41, (4683, 'set', 'test2', 'hello world')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (41, (4683, 'set', 'test2', 'hello world')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (41, (4683, 'set', 'test2', 'hello world')).
+Sequencer broadcaster to self
+Sequencer receives: (4680, 'set', 'test2', 'hello'). Broadcasting to all nodes.
+Node with pid: 4680 is processing message: (42, (4680, 'set', 'test2', 'hello')).
+Sequencer broadcaster to PYRO:obj_899f541e1e4f4bc2bbb516bc657021a6@localhost:58888
+Node with pid: 4683 is processing message: (42, (4680, 'set', 'test2', 'hello')).
+Sequencer broadcaster to PYRO:obj_9e9f9617889144c8a972eb8eaa1d1f94@localhost:58890
+Node with pid: 4676 is processing message: (42, (4680, 'set', 'test2', 'hello')).
+Sequencer broadcaster to self
+/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+
+Process finished with exit code 0
